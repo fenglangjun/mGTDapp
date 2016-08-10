@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:orientation="vertical"
+         >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/today_bac_sma" />
+
+                <TextView
+                    android:id="@+id/id_show_today_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="end"
+                    android:maxLines="13"
+                    android:scrollbars="vertical"
+                    android:singleLine="false"
+                    android:text="note" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2" 
+        android:layout_below="@+id/id_show_today_textview"
+        android:layout_alignParentBottom="true" 
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+            
+            <ImageButton
+                android:id="@+id/id_add_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#00000000"
+                android:scaleType="fitXY"
+                android:src="@drawable/add_selector_round" />
+            
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/id_show_tomo_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:ellipsize="start"
+            android:maxLines="13"
+            android:scrollbars="vertical"
+            android:singleLine="false"
+            android:text="note" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/tomo_bac_try" />
+
+        </FrameLayout>
+        
+    </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

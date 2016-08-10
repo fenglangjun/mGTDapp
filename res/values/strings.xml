@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MySteward</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="plan_title_label">标题：</string>
+    <string name="plan_title_hint">请输入标题</string>
+    <string name="plan_time_label">时间：</string>
+    <string name="plan_start_time_label">开始日期</string>
+    <string name="plan_end_time_label">截止日期</string>
+    <string name="plan_solved_label">解决了吗？</string>
+    <string name="dialog_time_label">选择日期</string>
+    <string name="dialog_choose_label">不选择具体日期</string>
+    <string name="no_time_label">未知</string>
+    <string name="review_effici_label">您现在的效率是：</string>
+    <string name="review_solved_label">您已完成的任务数：</string>
+    <string name="review_alllist_label">您总共登记的任务数：</string>
+    <string name="hint_hello">你好，最近的任务完成得怎么样了？</string>
+    <string name="hint_care">计划列得太满是会生病的哦~循序渐进，掌握好节奏</string>
+    <string name="hint_good_congra">效率真高啊！继续保持下去，你一定可以心想事成的</string>
+    <string name="hint_bad_care">嘿！该完成你的任务了！</string>
+    <string name="hint_care2">今天的天气好吗？你又怎么样了呢？</string>
+    <string name="hint_hello2">Yahoo------！据说自信的人，事情也会更顺利，所以每天都对自己说“我能行”吧！</string>
+    <string name="hint_question">我来考考你，你知道“茴香“的”茴“有几种写法？</string>
+    <string name="delete_label">我不要这个了</string>
+    <string name="sure_label">这样就行了</string>
+    <string name="input_notsure">在此输入…</string>
+    <string name="explain1_title">使用说明之收集</string>
+    <string name="explain2_title">使用说明之回顾</string>
+    <string name="explain3_title">使用说明之分类</string>
+    <string name="explain4_title">使用说明之提醒</string>
+    <string name="explain5_title">示例一</string>
+    <string name="explain6_title">示例二</string>
+    <string name="explain1_note">在收集界面（也就是你现在看到的界面）可以收集你想做的事！下方的加号按钮可以新增任务，还可以自由选择你的任务的deadline和完成状态！点击你的任务名字进行编辑，给它选一个所属分类可以更好地规划哦。</string>
+    <string name="explain2_note">按下上方最右边的图标，就可以进入回顾界面！不仅可以看到你至今为止的任务完成效率，还能通过点击下半部分的对话框和小人互动。</string>
+    <string name="explain3_note">上方从左起第二个的按钮可以通往分类界面，左右滑动可以显示不同的分类~分类也可以通过下方的加号按钮新增，也可以通过点击分类的名称进行编辑！分类中的任务都依次展示出来了，上下也可以滑动浏览~</string>
+    <string name="explain4_note">按下左上像日历一样的小图标就是提醒界面~可以看到你今天和明天需要完成的任务。可以临时新增任务加号按钮非常显眼，是不是很方便？</string>
+    <string name="explain5_note">我是示例一</string>
+    <string name="explain6_note">我是示例二</string>
+    <string name="explain1_fenlei_title">未分类</string>
+    <string name="explain2_fenlei_title">=使用说明=</string>
+    <string name="explain1_fenlei_note">注意：默认项目不可以删除，左右滑动以查看其它项目</string>
+    <string name="explain2_fenlei_note">看完后可以删除哦</string>
+
+</resources>
